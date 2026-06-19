@@ -12,4 +12,4 @@ try:
         result = conn.execute(text("SELECT 1"))
         print("✅ Database Connected Successfully!")
 except Exception as e:
-    print("❌ Error:", e)
+    print(" Error:", e)
